@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Activity</title>
+</head>
+
+<body>
+  <div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        Yoga
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    
+    <div class="nav-links">
+      <a href="#" target="_blank">Home</a>
+      <a href="#" target="_blank">Services</a>
+      <a href="#" target="_blank">About Us</a>
+      <a href="#" target="_blank">Practice</a>
+      <a href="#" target="_blank">Contact Us</a>
+    </div>
+  </div>
+  <center>
+    <header>
+      <div class="container">
+        <h1>Yoga, A Key of Peace mind</h1>
+      </div>
+    </header>
+    <main class="container">
+      <h2>Positions</h2>
+      <section class="card-row">
+        <article class="card">
+          <img src="https://images.financialexpress.com/2020/01/Yoga-Reu-1200.jpg?w=1200&h=800&imflag=true" alt="Preview of Whizzbang Widget" />
+          <h3>Virasana<em><img id="image" src="https://img1.pnghut.com/9/13/22/6meStXmhHU/red-dot-accenture-data-computer-network.jpg" alt="Live" style="width: 16px;
+            height: 13px;
+            border-radius: 60px;"> Live</em></h3>
+          <p>
+            Virasana or Hero Pose is a kneeling asana in modern yoga as exercise. Medieval hatha yoga texts describe a cross-legged meditation asana under the same name. Supta Virasana is the reclining form of the pose; it provides a stronger stretch.
+          </p>
+          <a href="https://en.wikipedia.org/wiki/Virasana" class="button">Read More...</a>
+        </article>
+        <article class="card">
+          <img src="https://thumbs.dreamstime.com/b/young-woman-practicing-yoga-nature-female-happiness-silhouette-young-woman-practicing-yoga-beach-sunset-young-121316506.jpg" alt="Preview of Whizzbang Widget" />
+          <h3>Sukhasna<em>1 Day ago</em></h3>
+          <p>
+            Sukhasna is a comfortable position for pranayama and meditation. It gives the practitioner a centering effect. All the other asnas are done to eventually make the body feel comfortable to be able to sit in this position for meditation.
+          </p>
+          <a href="https://en.wikipedia.org/wiki/Sukhasana" class="button">Read More...</a>
+        </article>
+        <article class="card">
+          <img src="https://static01.nyt.com/images/2016/12/06/well/move/yoga-for-everyone_promo/yoga-for-everyone_promo-superJumbo.jpg" alt="Preview of Whizzbang Widget" />
+          <h3>Parsvakonasana</h3>
+          <p>
+            Parivritta Parsvakonasana, is obtained by reversing the direction of turn of the thorax. In the full pose, the hand is brought to the floor on the outside of the front foot, and the other hand is stretched forwards in line with the body over the head.
+          </p>
+          <a href="https://en.wikipedia.org/wiki/Utthita_Parsvakonasana" class="button">Read More...</a>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p style="text-align: center">Copyright &copy; 2020 ITMGOI All Rights Reserved.</p>
+      </div>
+    </footer>
+  </center>
+</body>
+  <script>
+    var hidden = false;
+
+setInterval(function(){
+    document.getElementById("image").style.visibility= hidden ? "visible" : "hidden";
+    hidden = !hidden;
+},800);
+</script>
+
+</html>
