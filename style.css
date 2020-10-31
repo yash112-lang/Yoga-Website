@@ -21,8 +21,9 @@ body {
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
-  color: #fff;
+  color: rgb(221, 215, 131);
   padding: 10px 10px 10px 10px;
+  font-size: 50px;
 }
 
 .nav > .nav-btn {
@@ -107,7 +108,17 @@ header {
   background-color: rebeccapurple;
   color: #fff;
 }
+.form input{
+border-radius: 10px;
+width: 400px;
+text-align: center;
+}
 
+.form button{
+  background-color: midnightblue;
+  color:white;
+  border-radius: 5px;
+}
 body > footer {
   border-top: 2px solid rebeccapurple;
 }
